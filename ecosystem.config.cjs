@@ -1,0 +1,13 @@
+module.exports = {
+  apps: [
+    {
+      name: "ffmpeg-service",
+      script: "server.js",
+      cwd: "/home/ubuntu/ffmpeg-service",
+      watch: false,
+      env: {
+        NODE_ENV: "production"
+      }
+    }
+  ]
+};
